@@ -9,8 +9,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Mesh Systems | Crafting Scalable Digital Platforms & Elegant Solutions",
-  description: "Hi, I'm Meshack Ariri. I design and build efficient, enterprise-ready web and mobile platforms that solve real-world problems.",
+  title: "Mesh Systems | Systems Engineering & Development",
+  description: "We deploy and maintain production systems for healthcare facilities, NGOs, and organizations. EMR systems, web applications, mobile apps, and infrastructure support.",
 };
 
 export default function RootLayout({

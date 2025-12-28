@@ -19,14 +19,14 @@ export function Footer() {
             </div>
             <div className="flex items-center justify-center gap-6">
               <a
-                href="mailto:hello@nexlayersystems.com"
+                href="mailto:aririmeshack@gmail.com"
                 className="text-muted-foreground transition-colors hover:text-foreground"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/meshack-ariri/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground transition-colors hover:text-foreground"

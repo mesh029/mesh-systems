@@ -12,25 +12,19 @@ export function Navigation() {
         <div className="flex items-center gap-4">
           <div className="hidden items-center gap-8 sm:flex">
             <Link
-              href="#work"
+              href="/#capabilities"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              Work
+              Capabilities
             </Link>
             <Link
-              href="#about"
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              About
-            </Link>
-            <Link
-              href="#contact"
+              href="/#contact"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               Contact
             </Link>
             <Button size="sm" variant="outline" asChild>
-              <Link href="#contact">Get Started</Link>
+              <Link href="/#contact">Get In Touch</Link>
             </Button>
           </div>
           <ThemeToggle />

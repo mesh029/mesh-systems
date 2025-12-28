@@ -20,9 +20,9 @@ export function Contact() {
           <Card className="mx-auto max-w-md">
             <CardContent className="space-y-4 p-6">
               <Button className="w-full" size="lg" asChild>
-                <a href="mailto:hello@nexlayersystems.com">
+                <a href="mailto:aririmeshack@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
-                  hello@nexlayersystems.com
+                  aririmeshack@gmail.com
                 </a>
               </Button>
               <Button
@@ -32,7 +32,7 @@ export function Contact() {
                 asChild
               >
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/meshack-ariri/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
