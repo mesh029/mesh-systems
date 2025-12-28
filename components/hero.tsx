@@ -23,7 +23,7 @@ export function Hero() {
         </div>
         <div className="flex flex-col items-center justify-center gap-4 pt-6 sm:flex-row sm:justify-start">
           <Button size="lg" asChild>
-            <a href="#capabilities">View Capabilities</a>
+            <a href="#work">View Our Work</a>
           </Button>
           <Button size="lg" variant="outline" asChild>
             <a href="#contact">Get In Touch</a>

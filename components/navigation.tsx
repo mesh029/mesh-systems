@@ -12,10 +12,10 @@ export function Navigation() {
         <div className="flex items-center gap-4">
           <div className="hidden items-center gap-8 sm:flex">
             <Link
-              href="/#capabilities"
+              href="/#work"
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              Capabilities
+              Our Work
             </Link>
             <Link
               href="/#contact"

@@ -76,7 +76,7 @@ export const capabilities: Capability[] = [
       },
     ],
     outcomes: [
-      "Reliable patient data management and reporting capabilities",
+      "Reliable patient data management and reporting",
       "Improved clinical workflow efficiency through system configuration",
       "Stable production environments with consistent uptime",
       "Maintainable system architecture supporting long-term operations",

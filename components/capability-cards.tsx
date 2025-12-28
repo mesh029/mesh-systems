@@ -7,12 +7,12 @@ import { CapabilityIcon } from "@/components/capability-icon";
 export function CapabilityCards() {
   return (
     <section
-      id="capabilities"
+      id="work"
       className="container mx-auto px-4 py-24 sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 text-left text-3xl font-bold tracking-tight sm:text-4xl">
-          Capabilities
+          Our Work
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {capabilities.map((capability) => (

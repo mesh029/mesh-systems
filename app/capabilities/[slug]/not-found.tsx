@@ -10,10 +10,10 @@ export default function NotFound() {
       <div className="container mx-auto px-4 py-24 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="mb-4 text-4xl font-bold tracking-tight sm:text-5xl">
-            Capability Not Found
+            Page Not Found
           </h1>
           <p className="mb-8 text-lg text-muted-foreground">
-            The capability page you're looking for doesn't exist.
+            The page you're looking for doesn't exist.
           </p>
           <Button asChild>
             <Link href="/">Return Home</Link>
