@@ -25,7 +25,7 @@ export const capabilities: Capability[] = [
     title: "Health Information Systems (KenyaEMR / OpenMRS)",
     icon: "HeartPulse",
     summary:
-      "We deploy and maintain KenyaEMR and OpenMRS instances for healthcare facilities. We configure location hierarchies, user roles, and form customization. We troubleshoot production issues, perform system updates, and ensure data integrity across facility sites.",
+      "I deploy and maintain KenyaEMR, TaifaCare, and OpenMRS instances for healthcare facilities. I configure location hierarchies, user roles, and form customization. I troubleshoot production issues, perform system updates, and ensure data integrity across facility sites.",
     activities: [
       "KenyaEMR system installation and configuration",
       "OpenMRS module deployment and customization",
@@ -62,17 +62,17 @@ export const capabilities: Capability[] = [
       {
         title: "KenyaEMR Production Deployments",
         description:
-          "We deploy and maintain KenyaEMR instances for healthcare facilities, handling patient registration, clinical encounters, and reporting. We configure location hierarchies, user roles, and form customization to match facility workflows.",
+          "I deploy and maintain KenyaEMR and TaifaCare instances for healthcare facilities, handling patient registration, clinical encounters, and reporting. I configure location hierarchies, user roles, and form customization to match facility workflows.",
       },
       {
         title: "Dockerized OpenMRS Environments",
         description:
-          "We containerize OpenMRS deployments for development and testing environments. We manage Docker Compose configurations for multi-container setups including application server, database, and supporting services.",
+          "I containerize OpenMRS deployments for development and testing environments. I manage Docker Compose configurations for multi-container setups including application server, database, and supporting services.",
       },
       {
         title: "NGO Healthcare Program Support",
         description:
-          "We provide technical support for healthcare programs implementing EMR systems. We address production issues, perform system updates, and ensure data integrity across multiple facility sites.",
+          "I provide technical support for healthcare programs implementing EMR systems. I address production issues, perform system updates, and ensure data integrity across multiple facility sites.",
       },
     ],
     outcomes: [
@@ -88,7 +88,7 @@ export const capabilities: Capability[] = [
     title: "Full-Stack Web Development",
     icon: "Layers",
     summary:
-      "We build full-stack web applications from database design to user interface. We develop REST APIs, implement authentication systems, and create responsive frontends. We deploy applications serving real users with proper error handling and data persistence.",
+      "I build full-stack web applications from database design to user interface. I develop REST APIs, implement authentication systems, and create responsive frontends. I deploy applications serving real users with proper error handling and data persistence.",
     activities: [
       "RESTful API design and implementation",
       "Database schema design and optimization",
@@ -127,17 +127,17 @@ export const capabilities: Capability[] = [
       {
         title: "Production Web Applications",
         description:
-          "We build and deploy full-stack applications serving real users. We implement authentication, data persistence, and responsive user interfaces. Applications handle user workflows, data processing, and reporting requirements.",
+          "I build and deploy full-stack applications serving real users. I implement authentication, data persistence, and responsive user interfaces. Applications handle user workflows, data processing, and reporting requirements.",
       },
       {
         title: "API Development",
         description:
-          "We develop REST APIs for web and mobile clients. We design endpoints for data retrieval, updates, and business logic. We implement proper error handling, validation, and security measures.",
+          "I develop REST APIs for web and mobile clients. I design endpoints for data retrieval, updates, and business logic. I implement proper error handling, validation, and security measures.",
       },
       {
         title: "Database-Backed Systems",
         description:
-          "We design and implement database schemas for complex data relationships. We optimize queries for performance and maintain data integrity through proper normalization and constraints.",
+          "I design and implement database schemas for complex data relationships. I optimize queries for performance and maintain data integrity through proper normalization and constraints.",
       },
     ],
     outcomes: [
@@ -153,7 +153,7 @@ export const capabilities: Capability[] = [
     title: "Mobile Application Development",
     icon: "Smartphone",
     summary:
-      "We develop cross-platform mobile applications using React Native. We deploy apps to app stores, integrate with REST APIs, and implement offline data synchronization. We handle authentication, push notifications, and platform-specific requirements for iOS and Android.",
+      "I develop cross-platform mobile applications using Flutter and React Native. I deploy apps to app stores, integrate with REST APIs, and implement offline data synchronization. I handle authentication, push notifications, and platform-specific requirements for iOS and Android.",
     activities: [
       "Mobile app architecture and design",
       "Cross-platform development",
@@ -167,11 +167,11 @@ export const capabilities: Capability[] = [
     techStack: [
       {
         category: "Mobile Framework",
-        technologies: ["React Native", "Expo"],
+        technologies: ["Flutter", "React Native", "Expo"],
       },
       {
         category: "Languages",
-        technologies: ["JavaScript", "TypeScript"],
+        technologies: ["Dart", "JavaScript", "TypeScript"],
       },
       {
         category: "State Management",
@@ -186,17 +186,17 @@ export const capabilities: Capability[] = [
       {
         title: "Production Mobile Applications",
         description:
-          "We develop and deploy mobile applications to app stores. Applications handle user authentication, data synchronization with backend services, and offline functionality. We implement proper error handling and user feedback mechanisms.",
+          "I develop and deploy mobile applications to app stores using Flutter. Applications handle user authentication, data synchronization with backend services, and offline functionality. I implement proper error handling and user feedback mechanisms.",
       },
       {
         title: "Backend Integration",
         description:
-          "We integrate mobile applications with REST APIs, handling authentication tokens, data fetching, and error states. We implement proper loading states and user experience optimizations.",
+          "I integrate mobile applications with REST APIs, handling authentication tokens, data fetching, and error states. I implement proper loading states and user experience optimizations.",
       },
       {
         title: "Cross-Platform Deployment",
         description:
-          "We build applications targeting both iOS and Android platforms from a single codebase. We handle platform-specific requirements and testing across devices.",
+          "I build applications targeting both iOS and Android platforms from a single codebase using Flutter. I handle platform-specific requirements and testing across devices.",
       },
     ],
     outcomes: [
@@ -212,7 +212,7 @@ export const capabilities: Capability[] = [
     title: "DevOps & Infrastructure",
     icon: "Server",
     summary:
-      "We set up and maintain Linux servers for production applications. We containerize applications with Docker, manage environment configurations, and implement deployment processes. We perform system updates, security patches, and monitoring.",
+      "I set up and maintain Linux servers for production applications. I containerize applications with Docker, manage environment configurations, and implement deployment processes. I perform system updates, security patches, and monitoring using Cisco Meraki dashboards for multi-location management.",
     activities: [
       "Docker containerization and orchestration",
       "Server setup and configuration (Linux)",
@@ -249,17 +249,17 @@ export const capabilities: Capability[] = [
       {
         title: "Dockerized Application Deployments",
         description:
-          "We containerize applications for consistent deployment across environments. We create Docker Compose configurations for multi-service applications including web servers, databases, and supporting services. We manage container lifecycle.",
+          "I containerize applications for consistent deployment across environments. I create Docker Compose configurations for multi-service applications including web servers, databases, and supporting services. I manage container lifecycle.",
       },
       {
         title: "Linux Server Management",
         description:
-          "We set up and maintain Linux servers for production applications. We configure web servers, database servers, and application runtimes. We perform system updates, security patches, and monitoring.",
+          "I set up and maintain Linux servers for production applications. I configure web servers, database servers, and application runtimes. I perform system updates, security patches, and monitoring. I manage network infrastructure using Cisco Meraki dashboards across multiple office locations.",
       },
       {
         title: "Production vs Local Environments",
         description:
-          "We manage environment-specific configurations for development, staging, and production. We ensure proper separation of concerns, environment variables, and deployment processes. We handle database migrations and rollback procedures.",
+          "I manage environment-specific configurations for development, staging, and production. I ensure proper separation of concerns, environment variables, and deployment processes. I handle database migrations and rollback procedures. I've migrated on-premise servers to cloud environments.",
       },
     ],
     outcomes: [
@@ -275,7 +275,7 @@ export const capabilities: Capability[] = [
     title: "Enterprise & NGO IT Support",
     icon: "LifeBuoy",
     summary:
-      "We provide IT support for NGO and enterprise operations. We handle desktop support, network troubleshooting, system maintenance, and user account management. We respond to technical issues affecting organizational operations and maintain documentation for ongoing support.",
+      "I provide IT support for NGO and enterprise operations. I handle desktop support, network troubleshooting, system maintenance, and user account management. I respond to technical issues affecting organizational operations and maintain documentation for ongoing support.",
     activities: [
       "User support and troubleshooting",
       "System administration and maintenance",
@@ -304,17 +304,17 @@ export const capabilities: Capability[] = [
       {
         title: "NGO IT Infrastructure Support",
         description:
-          "We provide IT support for NGO operations, including desktop support, network troubleshooting, and system maintenance. We handle user account management, software installations, and hardware issues. We ensure reliable access to critical systems and applications.",
+          "I provide IT support for NGO operations, including desktop support, network troubleshooting, and system maintenance. I handle user account management, software installations, and hardware issues. I ensure reliable access to critical systems and applications.",
       },
       {
         title: "Healthcare Program IT Support",
         description:
-          "We support healthcare programs with IT infrastructure needs. We maintain EMR systems, network connectivity, and user access. We address technical issues affecting clinical workflows and data access.",
+          "I support healthcare programs with IT infrastructure needs. I maintain EMR systems, network connectivity, and user access. I address technical issues affecting clinical workflows and data access.",
       },
       {
         title: "Production System Maintenance",
         description:
-          "We perform regular maintenance on production systems including updates, backups, and monitoring. We respond to system issues affecting organizational operations. We maintain documentation and procedures for ongoing support.",
+          "I perform regular maintenance on production systems including updates, backups, and monitoring. I respond to system issues affecting organizational operations. I maintain documentation and procedures for ongoing support.",
       },
     ],
     outcomes: [
@@ -322,6 +322,61 @@ export const capabilities: Capability[] = [
       "Reduced downtime through proactive maintenance",
       "Improved user productivity through effective support",
       "Maintained system security and compliance",
+    ],
+  },
+  {
+    id: "ai-llm-integration",
+    slug: "ai-llm-integration",
+    title: "AI & LLM Integration",
+    icon: "Bot",
+    summary:
+      "I integrate LLMs and agentic AI systems to improve efficiency and work output. I use ChatGPT, Claude, Cursor, and other AI tools to generate high-quality content, designs, and automate workflows. I build AI-powered features into applications and optimize development processes.",
+    activities: [
+      "LLM integration for content generation and automation",
+      "Agentic AI workflow design and implementation",
+      "AI-powered application features",
+      "Development process optimization using AI tools",
+      "Prompt engineering and AI system configuration",
+      "AI-assisted code generation and refactoring",
+      "Content creation and design generation using AI",
+      "Workflow automation with AI agents",
+    ],
+    techStack: [
+      {
+        category: "AI Platforms",
+        technologies: ["OpenAI GPT", "Claude (Anthropic)", "Cursor AI"],
+      },
+      {
+        category: "Tools",
+        technologies: ["GitHub Copilot", "AI Code Assistants"],
+      },
+      {
+        category: "Integration",
+        technologies: ["REST APIs", "Python", "Node.js"],
+      },
+    ],
+    systems: [
+      {
+        title: "AI-Powered Development Workflows",
+        description:
+          "I use Cursor, Claude, and ChatGPT to accelerate development, generate code, refactor systems, and create documentation. I integrate AI tools into my daily workflow to improve productivity and code quality.",
+      },
+      {
+        title: "Content and Design Generation",
+        description:
+          "I leverage generative AI to produce high-quality content, designs, and visual assets. I use AI tools to create documentation, presentations, and marketing materials efficiently.",
+      },
+      {
+        title: "AI-Enhanced Applications",
+        description:
+          "I build AI-powered features into applications, integrating LLM APIs for natural language processing, content generation, and intelligent automation. I design systems that leverage AI to improve user experience and operational efficiency.",
+      },
+    ],
+    outcomes: [
+      "Improved development efficiency and code quality",
+      "Faster content creation and design generation",
+      "Enhanced application capabilities through AI integration",
+      "Streamlined workflows with automated AI assistance",
     ],
   },
 ];

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { profile } from "@/lib/profile";
 
 const openSans = Open_Sans({
   variable: "--font-sans",
@@ -9,8 +10,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Mesh Systems | Systems Engineering & Development",
-  description: "We deploy and maintain production systems for healthcare facilities, NGOs, and organizations. EMR systems, web applications, mobile apps, and infrastructure support.",
+  title: `${profile.name} | ${profile.title}`,
+  description: profile.summary,
 };
 
 export default function RootLayout({

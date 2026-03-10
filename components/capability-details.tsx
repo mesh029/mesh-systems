@@ -15,7 +15,7 @@ export function CapabilityDetails({ capability }: CapabilityDetailsProps) {
           <div className="flex items-center gap-3">
             <ListChecks className="h-6 w-6 text-muted-foreground" />
             <h2 className="text-left text-2xl font-bold tracking-tight sm:text-3xl">
-              What We Actively Do
+              What I Actively Do
             </h2>
           </div>
           <ul className="space-y-2 text-left text-base leading-relaxed text-muted-foreground">

@@ -12,7 +12,7 @@ export function CapabilityCards() {
     >
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 text-left text-3xl font-bold tracking-tight sm:text-4xl">
-          Our Work
+          My Work
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {capabilities.map((capability) => (
