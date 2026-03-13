@@ -29,9 +29,11 @@ export const capabilities: Capability[] = [
     activities: [
       "KenyaEMR system installation and configuration",
       "OpenMRS module deployment and customization",
-      "Database setup and optimization (MySQL)",
+      "Database setup and optimization (MySQL, PostgreSQL, MariaDB)",
+      "ETL operations and data migration across multiple EMR servers",
       "Production environment troubleshooting",
       "User access management and role configuration",
+      "Database performance tuning and query optimization",
       "Data migration and backup operations",
       "System performance monitoring and tuning",
       "Integration with existing healthcare workflows",
@@ -47,7 +49,7 @@ export const capabilities: Capability[] = [
       },
       {
         category: "Database",
-        technologies: ["MySQL", "PostgreSQL"],
+        technologies: ["MySQL", "PostgreSQL", "MariaDB", "SQL", "ETL"],
       },
       {
         category: "Infrastructure",
@@ -116,7 +118,7 @@ export const capabilities: Capability[] = [
       },
       {
         category: "Database",
-        technologies: ["PostgreSQL", "MySQL", "MongoDB"],
+        technologies: ["PostgreSQL", "MySQL", "MariaDB", "Prisma ORM", "SQL"],
       },
       {
         category: "Tools",
@@ -137,7 +139,7 @@ export const capabilities: Capability[] = [
       {
         title: "Database-Backed Systems",
         description:
-          "I design and implement database schemas for complex data relationships. I optimize queries for performance and maintain data integrity through proper normalization and constraints.",
+          "I design and implement database schemas for complex data relationships using SQL, MySQL, PostgreSQL, MariaDB, and Prisma ORM. I optimize queries for performance, execute ETL operations across multiple servers, and maintain data integrity through proper normalization and constraints.",
       },
     ],
     outcomes: [
